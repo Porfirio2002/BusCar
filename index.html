@@ -29,6 +29,7 @@
         </div>
     </header>
     <main>
+        <!--titulos-->
             <div class="titulo">
                 <h3 class="titulo1">antes de contratar o seriço pesquise o preço de mercado do veículo</h3>
             </div>
@@ -36,25 +37,37 @@
             <div class="alerta">
                 <h4 class="alerta">NÃO CAIA EM GOLPES</h4>
             </div>
-                        
+        <!--fim dostitulos-->
+
+        <!--formulario-->
     <div>
             <form class="formulario">
                 <div class="forms">
                 <label for="InputNome">Nome:</label>
-                <input type="text" id="InputNome">
+                <input type="text" id="InputNome" placeholder="Nome Sobrenome">
 
                 <label for="InputEmail">Email:</label>
-                <input type="email" id="InputEmail">
+                <input type="email" id="InputEmail" placeholder="exemplo@email.com">
 
                 <label for="InputTelefone">Telefone:</label>
-                <input type="tel" id="InputTelefone">
+                <input type="text" class="InputTelefone" placeholder="00 0000-0000">
+
+                <select name="fcontato">
+                    <option value="valor1"selected>Selecionar</option>
+                    <option value="valor2">Ligação</option>
+                    <option value="valor3">Email</option>
+                    <option value="valor4">Whatsapp</option>
+                  </select>
 
                 <label for="InputMensagem">Informe na caixa de mensagem qual o veiculo desejado</label>
-                <textarea name="InputMensagen" id="InputMensagen" cols="30" rows="10"></textarea>
+                <textarea name="InputMensagen" id="InputMensagen" cols="30" rows="10" placeholder="Prisma LTZ 2016 preto"></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
         </div>
+        <!--fim do formulario-->
+
+        <!--Quem somos-->
             <div class="quemsomos">
                 <h1>Quem somos</h1>
 
@@ -65,9 +78,13 @@
                         Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
                         of Lorem Ipsum.</p>
             </div>
+            <!--Quem somos fim-->
+
     </main>
 </body>
+<!--footer-->
 <div class="footer"> 
     <p> &copy;Pedro Henrique Porfirio</p>
 </div>
+<!--fim do footer-->
 </html>

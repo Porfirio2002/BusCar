@@ -1,4 +1,4 @@
-
+/*menu*/
 body {
     background: #F8F8FF;
 }
@@ -28,10 +28,13 @@ nav a {
     top: -150px;
     
 }
-img {
-    width: 200px;
-    height: 200px;
+nav a:hover {
+    color: #8f8fb1;
+    font-size: 25px;
 }
+/*fim do menu*/
+
+/*titulos*/
 .titulo {
     text-transform: uppercase;
     font-weight: bold;
@@ -54,7 +57,9 @@ img {
     justify-content: center;
     align-items: center;
     }
+/*fim dos titulos*/
 
+/*quem somos*/
 .quemsomos {
 
     font-size: 15px;
@@ -67,16 +72,10 @@ img {
     font-weight: bold;
     font-size: 25px;
 }
+/*fim quem somos*/
 
-.footer {
-    background:#0f87e0;
-    color: #ffffff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+
+/*formulario*/
 .forms {
     width: 50%;
     margin: 35px auto;
@@ -111,3 +110,22 @@ img {
     font-weight: bold;
     padding: 15px;
 }
+.forms select {
+    width: 96%;
+    margin: auto 15px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+}
+/*fim do furmulario*/
+
+/*footer*/
+.footer {
+    background:#0f87e0;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+/*fim do footer*/
