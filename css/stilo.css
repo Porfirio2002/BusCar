@@ -1,0 +1,113 @@
+
+body {
+    background: #F8F8FF;
+}
+
+header {
+    background:#0f87e0;
+}
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    top: -150px;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.titulo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h3 {
+    font-weight: bold;
+}
+.alerta{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+.quemsomos {
+
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.quemsomos h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer {
+    background:#0f87e0;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.forms {
+    width: 50%;
+    margin: 35px auto;
+    box-shadow: 0 4px 8px #999;
+    
+}
+.forms input {
+    width: 95%;
+    margin: auto 15px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+}
+.forms textarea {
+    width: 95%;
+    margin: auto 15px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+}
+.forms label {
+    margin: auto 15px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+}
+
+.forms button {
+    background: #00ff00;
+    border: 1px solid #000000;
+    color: #ffffff;
+    margin: auto 15px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
